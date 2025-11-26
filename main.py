@@ -15,6 +15,6 @@ def find_lowercase_vowel(msg: str):
     or the length of msg if it does not contain any lowercase vowels.
     """
     for index, char in enumerate(msg): # for statment
-        if char in 'aeiou':
+        if char in 'aeiou': # if statment 
             return index # return value
     return len(msg)
